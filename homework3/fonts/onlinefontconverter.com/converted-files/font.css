@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Rubik-SemiBoldItalic';
+  src: url('Rubik-SemiBoldItalic.eot');
+  src: url('Rubik-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('Rubik-SemiBoldItalic.svg#Rubik-SemiBoldItalic') format('svg'),
+       url('Rubik-SemiBoldItalic.ttf') format('truetype'),
+       url('Rubik-SemiBoldItalic.woff') format('woff'),
+       url('Rubik-SemiBoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
