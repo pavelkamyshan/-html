@@ -21,9 +21,10 @@ body{
     font-size: 12px;
     font-weight: 600;
     text-align: center;
+    padding-top: 10px;
 }
 .black span{
-    color: blue;
+    color: rgb(60, 60, 214);
 }
 .header{
     height: 72px;
@@ -70,4 +71,23 @@ body{
     display: inline-block;
     margin-top: 9px;
     opacity: 0.5;
+}
+.head-header span{
+    color: #fff;
+    width: 145px;
+    height: 40px;
+    background: #0772BF;
+    border-radius: 4px;
+    padding: 5px 0px 5px 10px;
+}
+.head-header li{
+    display: inline-block;
+    margin: 16px;
+    font-size: 16px;
+}
+.head-header ul{
+    margin-left: 68px;
+}
+.sale{
+    color: red;
 }
