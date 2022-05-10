@@ -108,5 +108,30 @@ h1{
     font-size: 32px;
     font-weight: 700;
     margin-left: 80px;
-    margin-top: 61px;
+    margin-top: 50px;
+}
+.catalog-menu .Cattegories{
+    margin-left: 80px;
+    color: #5E5C5C;
+    font-size: 16px;
+    font-weight: 400;
+    width: 256px;
+    height: 175px;
+    border-bottom: #5E5C5C;
+    padding: 10px 0px;
+    line-height: 35px;
+}
+.catalog-menu .Cattegories1{
+    margin-left: 80px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    width: 256px;
+    height: 40px;
+    border-bottom: #5E5C5C;
+    padding: 10px 0px;
+    line-height: 35px;
+}
+.catalog-menu .Cattegories span{
+    color: #000000;
 }
