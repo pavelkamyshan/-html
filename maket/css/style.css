@@ -135,3 +135,17 @@ h1{
 .catalog-menu .Cattegories span{
     color: #000000;
 }
+.catalog{
+    float: right;
+}
+.catalog select{
+    color: #5E5C5C;
+    width: 128px;
+    height: 44px;
+    text-align: right;
+   
+}
+select:last-child{
+    width: 223px;
+    height: 32px;   
+}
