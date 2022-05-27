@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="1" onclick="getnumber(1)">
+    <input type="button" value="2" onclick="getnumber(2)">
+    <input type="button" value="3" onclick="getnumber(3)">
+    <input type="button" value="4" onclick="getnumber(4)">
+    <input type="button" value="5" onclick="getnumber(5)">
+    <input type="button" value="6" onclick="getnumber(6)">
+    <input type="button" value="7" onclick="getnumber(7)">
+    <input type="button" value="8" onclick="getnumber(8)">
+    <input type="button" value="9" onclick="getnumber(9)">
+    <input type="button" value="0" onclick="getnumber(0)">
+    <input type="button" value="=" onclick="getresult('=')">
+    <input type="button" value="+" onclick="getoperation('+')">
+    <input type="button" value="-" onclick="getoperation('-')">
+    <input type="button" value="/" onclick="getoperation('/')">
+    <input type="button" value="*" onclick="getoperation('*')">
+    <script>
+        var num1 = null;
+        var num2 = null;
+        var operation;
+
+        function getnumber(x) {
+            if(num1 === null){
+                num1 = x
+            } else{
+                num2 = x
+            }
+        }
+        function getoperation(x) {
+            operation = x
+        }
+
+        function getresult() {
+        switch (operation) {
+            case "+": console.log(num1+num2); break;
+            case "-": console.log(num1-num2); break;
+            case "/": console.log(num1/num2); break;
+            case "*": console.log(num1*num2); break;
+        }
+        
+        }
+
+
+
+    </script>
+
+
+
+</body>
+</html>
