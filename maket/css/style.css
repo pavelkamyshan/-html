@@ -137,15 +137,35 @@ h1{
 }
 .catalog{
     float: right;
+    font-size: 16px;
+    
 }
 .catalog select{
     color: #5E5C5C;
     width: 128px;
     height: 44px;
     text-align: right;
-   
+    font-size: 16px;
+    border-radius: 4px;
+}
+select:first-child{
+    margin-left: 220px;
 }
 select:last-child{
     width: 223px;
-    height: 32px;   
+    height: 32px;
+    margin-left: 65px;     
+}
+.catalog ul{
+    color: #5E5C5C; 
+    font-size: 14px;
+}
+.catalog ul strong{
+    color: #000000; 
+}
+.catalog ul li{
+    width: 240px;
+    height: 400px;
+    float: left;
+    margin-left: 15px;
 }
