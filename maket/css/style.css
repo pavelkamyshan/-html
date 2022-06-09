@@ -135,6 +135,9 @@ h1{
 .catalog-menu .Cattegories span{
     color: #000000;
 }
+.catalog-menu{
+    float: left;
+}
 .catalog{
     float: right;
     font-size: 16px;
@@ -142,18 +145,18 @@ h1{
 }
 .catalog select{
     color: #5E5C5C;
-    width: 128px;
-    height: 44px;
     text-align: right;
     font-size: 16px;
     border-radius: 4px;
 }
-select:first-child{
+.catalog select:first-child{
+    width: 128px;
+    height: 44px;
     margin-left: 220px;
 }
-select:last-child{
+.catalog select:last-child{
     width: 223px;
-    height: 32px;
+    height: 44px;
     margin-left: 65px;     
 }
 .catalog ul{
@@ -163,9 +166,37 @@ select:last-child{
 .catalog ul strong{
     color: #000000; 
 }
-.catalog ul li{
-    width: 240px;
+.catalog > ul > li{
+    width: 272px;
     height: 400px;
     float: left;
     margin-left: 15px;
+    text-align: center;
+}
+.catalog > ul > li > p{
+    text-align: left;
+}
+.catalog > ul > li .title{
+    margin-top: 9px;
+}
+.catalog > ul > li .price{
+    margin-top: 8px;
+    float: left;
+    margin-right: 80px;
+}
+.catalog > ul > li .price + ul li{
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+}
+.catalog > ul > li .price + ul li:nth-child(1),
+.catalog > ul > li .price + ul li:nth-child(2),
+.catalog > ul > li .price + ul li:nth-child(3),
+.catalog > ul > li .price + ul li:nth-child(4)
+{
+    background: url("../img/Star.svg") no-repeat center;
+}
+.catalog > ul > li .price + ul li:last-child{
+    background: url("../img/Star_1.svg") no-repeat center;
 }
